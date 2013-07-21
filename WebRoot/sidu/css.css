@@ -1,0 +1,59 @@
+*{padding:0;margin:0;font-family:sans;font-size:16px}
+
+#menu{padding:3px;white-space:nowrap;color:#666}
+#menu img{border:0;vertical-align:middle}
+#menu a{color:#333;text-decoration:none}
+#menu a:hover{text-decoration:underline;background:#cde}
+
+.nav1{position:fixed;top:0;width:100%;height:24px;overflow:hidden;white-space:nowrap;padding:3px;color:#333;background:#eed;border-bottom:solid 1px #cca}
+.nav1 img{padding:3px;border:solid 1px #eed;vertical-align:middle;opacity:0.8}
+.nav1 img:hover{border-color:#bb9 #fff #fff #bb9;opacity:1}
+.nav1 img.grey{opacity:0.3}
+.nav1 input{border:solid 1px #ddb;padding:1px}
+.nav1 a{text-decoration:none;color:#000}
+.nav2{height:34px}
+
+.vm{vertical-align:middle}
+.web{padding:10px}
+.web p{margin-bottom:15px}
+.box{border:solid 1px #ddd;background:#fefefe;padding:10px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}
+.dot{margin:0;padding-top:5px;padding-bottom:4px;background:url(./img/dot.png) bottom left repeat-x;}
+.left{float:left}
+.right{float:right}
+.clear{clear:both}
+.b{font-weight:bold}
+.ml30{margin-left:30px}
+.bg{background:#ddd}
+.anone{text-decoration:none;color:#333}
+.red{color:#f00}
+.ok{color:#393;background:url(./img/tool-ok.gif) top left no-repeat;padding-left:28px}
+.err{color:#f00;background:url(./img/tool-x.png) top left no-repeat;padding-left:28px}
+.grey,.grey input{color:#666}
+.blue,.blue input{color:blue}
+.green,.green input{color:#393}
+.hand{cursor:pointer}
+.null,.null a{color:#888 !important;font-style:italic}
+#blobDiv,.blobDiv{background:#ccc;position:fixed;width:500px;top:0;left:0;padding:5px;border-right:solid 1px #888;border-bottom:solid 1px #888}
+#blobDiv{text-align:right;height:320px}
+
+.grid{border:solid 1px #cca;margin-left:3px;white-space:nowrap}
+.grid .th td{background:#ddb;text-align:left;padding:1px;font-weight:bold;color:#333}
+.grid .th:hover td{background:#ddb}
+.grid td{background:#eed;padding-right:2px;vertical-align:top}
+.grid tr:hover td,.grid tr:hover input{background:#cf9}
+.grid a{text-decoration:none;color:#033}
+.grid a:hover{color:#066}
+.grid input{width:100%;border:solid 1px #ccc}
+.grid input:focus{background:#9c9}
+.gridf input{color:#900;background:#cc0}
+#trhide td{text-align:right}
+
+.sort1{background:url(img/arrup.gif) 5px center no-repeat}
+.sort1d{background:url(img/arrdw.gif) 5px center no-repeat}
+.sort2{background:url(img/arrup2.gif) 5px center no-repeat}
+.sort2d{background:url(img/arrdw2.gif) 5px center no-repeat}
+.sort1,.sort1d,.sort2,.sort2d{padding-left:18px}
+.cbox{background:#ddb !important;text-align:center;padding:0 7px !important;vertical-align:middle !important}
+
+.gridH{padding-right:10px !important;cursor:e-resize}
+.gridH a{overflow:hidden;display:block}

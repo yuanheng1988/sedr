@@ -1,0 +1,38 @@
+SIDU Saved Connection # do not change this line
+--------------------- # do not change this line
+eng  = my
+host = localhost
+user = root
+pass = 
+penc = 
+port = 
+dbs  = mysql;test
+char = 
+--------------------- # do not change this line
+eng  = pg
+host = localhost
+user = postgres
+pass = 
+penc = 
+port = 
+dbs  = mydb
+--------------------- # do not change this line
+eng  = sl
+dbs  = sqlite/db1;sqlite/db2
+char = 
+--------------------- # do not change this line
+SIDU Saved Preference # do not change this line
+--------------------- # do not change this line
+lang       = en # cn en it de... Display language
+pgSize     = 15 # -1 no limit... Pagesize in data result
+tree       = _  # 1~9 _      ... Group objects seperated by first x
+#sortObj   = 1  # 1|2 ... sort object
+#sortData  = 2  # 1|2 ... sort data
+menuTextSQL= 1  # 0|1 ... show text on SQL toolbar
+menuText   = 0  # 0|1 ... show text on Data toolbar
+his        = 1  # 0|1 ... log history
+hisErr     = 1  # 0|1 ... log history err
+hisSQL     = 1  # 0|1 ... log history SQL
+hisData    = 1  # 0|1 ... log history Data (max 5 rows) before delete|update
+dataEasy   = 1  # 0|1 ... PG auto convert int char varchar
+oid        = 1  # 0|1 ... PG show oid

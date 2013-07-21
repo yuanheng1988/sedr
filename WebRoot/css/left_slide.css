@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin-top:0; margin-left:0}
+.div2 {
+	width:200px;
+
+
+}
+.data {
+	background:url(../images/data.png) no-repeat;
+	height:270px;
+}
+.dataTable {
+	font-size:14px;
+}
+.dataTable tr td {
+	padding-left:15px
+}
+.dataTable tr td A {
+	font-size:11px;
+	font-weight:bold;
+	color: #fd4b22;
+	text-decoration:none;
+	FONT-FAMILY: Georgia, Arial, Verdana, sans;
+}

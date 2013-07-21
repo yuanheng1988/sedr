@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagrams:Diagrams xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.topcased.org/DI/1.0" xmlns:diagrams="http://www.topcased.org/Diagrams/1.0" xmi:id="_YRRk0Hh4EeC6--0yBRkboA" activeDiagram="_YSwykHh4EeC6--0yBRkboA">
+  <model href="EmailSender.uml#_YEmawXh4EeC6--0yBRkboA"/>
+  <diagrams xmi:id="_YSwykHh4EeC6--0yBRkboA" position="0,0" size="100,100" name="EmailSender" viewport="0,0">
+    <property xmi:id="_YwRN8Hh4EeC6--0yBRkboA" key="pageFormatName" value="A4"/>
+    <property xmi:id="_YwRN8Xh4EeC6--0yBRkboA" key="diagramWidth" value="840"/>
+    <property xmi:id="_YwRN8nh4EeC6--0yBRkboA" key="diagramHeight" value="1188"/>
+    <property xmi:id="_YwRN83h4EeC6--0yBRkboA" key="pageMarginName" value="Small Margin"/>
+    <property xmi:id="_YwRN9Hh4EeC6--0yBRkboA" key="diagramTopMargin" value="20"/>
+    <property xmi:id="_YwRN9Xh4EeC6--0yBRkboA" key="diagramBottomMargin" value="20"/>
+    <property xmi:id="_YwRN9nh4EeC6--0yBRkboA" key="diagramLeftMargin" value="20"/>
+    <property xmi:id="_YwRN93h4EeC6--0yBRkboA" key="diagramRightMargin" value="20"/>
+    <property xmi:id="_YwRN-Hh4EeC6--0yBRkboA" key="orientation" value="portrait"/>
+    <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_YSwykXh4EeC6--0yBRkboA" presentation="org.topcased.modeler.uml.sequencediagram">
+      <element href="EmailSender.uml#_YEmaw3h4EeC6--0yBRkboA"/>
+    </semanticModel>
+    <contained xsi:type="di:GraphNode" xmi:id="_ZNBbanh4EeC6--0yBRkboA" position="3,822" size="506,38">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZNBba3h4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMXXh4EeC6--0yBRkboA"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZNBbbHh4EeC6--0yBRkboA">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZNBbbXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMXnh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_ZEYcwHh4EeC6--0yBRkboA" position="13,40" size="100,1245">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZEYcwXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwLy3h4EeC6--0yBRkboA"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIaBJHh4EeC6--0yBRkboA" position="63,40" size="20,35">
+        <anchorage xmi:id="_ZJJoAHh4EeC6--0yBRkboA" position="63,5" graphEdge="_ZL1IkXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZL1Ik3h4EeC6--0yBRkboA" position="63,25" graphEdge="_ZL1IlXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIaBJXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwL1nh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIjLFHh4EeC6--0yBRkboA" position="63,95" size="20,195">
+        <anchorage xmi:id="_ZL1Il3h4EeC6--0yBRkboA" position="63,5" graphEdge="_ZL1ImXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZL1Im3h4EeC6--0yBRkboA" position="63,25" graphEdge="_ZL-5kXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZL-5k3h4EeC6--0yBRkboA" position="63,45" graphEdge="_ZL-5lXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZL-5l3h4EeC6--0yBRkboA" position="63,65" graphEdge="_ZL-5mXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZL-5m3h4EeC6--0yBRkboA" position="63,85" graphEdge="_ZL-5nXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZL-5n3h4EeC6--0yBRkboA" position="63,105" graphEdge="_ZL-5oXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZL-5o3h4EeC6--0yBRkboA" position="63,125" graphEdge="_ZL-5pXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZL-5p3h4EeC6--0yBRkboA" position="63,145" graphEdge="_ZL-5qXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZL-5q3h4EeC6--0yBRkboA" position="63,165" graphEdge="_ZL-5rXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZL-5r3h4EeC6--0yBRkboA" position="63,185" graphEdge="_ZMIDgHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIjLFXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwL33h4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIs8EHh4EeC6--0yBRkboA" position="63,310" size="20,215">
+        <anchorage xmi:id="_ZMIDgnh4EeC6--0yBRkboA" position="63,5" graphEdge="_ZMR0gXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMR0g3h4EeC6--0yBRkboA" position="63,25" graphEdge="_ZMR0hXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMR0h3h4EeC6--0yBRkboA" position="63,45" graphEdge="_ZMR0iXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMR0i3h4EeC6--0yBRkboA" position="63,65" graphEdge="_ZMR0jXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMR0j3h4EeC6--0yBRkboA" position="63,85" graphEdge="_ZMR0kXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMR0k3h4EeC6--0yBRkboA" position="63,105" graphEdge="_ZMR0lXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMR0l3h4EeC6--0yBRkboA" position="63,125" graphEdge="_ZMblgHh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMblgnh4EeC6--0yBRkboA" position="63,145" graphEdge="_ZMblhHh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMblhnh4EeC6--0yBRkboA" position="63,165" graphEdge="_ZMbliHh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMblinh4EeC6--0yBRkboA" position="63,185" graphEdge="_ZMbljHh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMbljnh4EeC6--0yBRkboA" position="63,205" graphEdge="_ZMblkHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIs8EXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMB3h4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIs8Inh4EeC6--0yBRkboA" position="63,535" size="20,355">
+        <anchorage xmi:id="_ZMblknh4EeC6--0yBRkboA" position="63,5" graphEdge="_ZMbllHh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMbllnh4EeC6--0yBRkboA" position="63,25" graphEdge="_ZMblmHh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMblmnh4EeC6--0yBRkboA" position="63,45" graphEdge="_ZMkvcHh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMkvcnh4EeC6--0yBRkboA" position="63,65" graphEdge="_ZMkvdHh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMkvdnh4EeC6--0yBRkboA" position="63,85" graphEdge="_ZMkveHh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMkvenh4EeC6--0yBRkboA" position="63,105" graphEdge="_ZMkvfHh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMkvfnh4EeC6--0yBRkboA" position="63,125" graphEdge="_ZMkvgHh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMkvgnh4EeC6--0yBRkboA" position="63,145" graphEdge="_ZMkvhHh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMkvhnh4EeC6--0yBRkboA" position="63,165" graphEdge="_ZMugcXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMugc3h4EeC6--0yBRkboA" position="63,185" graphEdge="_ZMugdXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMugd3h4EeC6--0yBRkboA" position="63,205" graphEdge="_ZMugeXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMuge3h4EeC6--0yBRkboA" position="63,225" graphEdge="_ZMugfXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMugf3h4EeC6--0yBRkboA" position="63,245" graphEdge="_ZMuggXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMugg3h4EeC6--0yBRkboA" position="63,265" graphEdge="_ZMughXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMugh3h4EeC6--0yBRkboA" position="63,285" graphEdge="_ZMugiXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMugi3h4EeC6--0yBRkboA" position="63,305" graphEdge="_ZMugjXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMugj3h4EeC6--0yBRkboA" position="63,325" graphEdge="_ZMugkXh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZMugk3h4EeC6--0yBRkboA" position="63,345" graphEdge="_ZM4RcHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIs8I3h4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMMXh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI2tLHh4EeC6--0yBRkboA" position="63,910" size="20,215">
+        <anchorage xmi:id="_ZM4Rcnh4EeC6--0yBRkboA" position="63,5" graphEdge="_ZM4RdHh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZM4Rdnh4EeC6--0yBRkboA" position="63,25" graphEdge="_ZM4ReHh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZM4Renh4EeC6--0yBRkboA" position="63,45" graphEdge="_ZM4RfHh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZM4Rfnh4EeC6--0yBRkboA" position="63,65" graphEdge="_ZM4RgHh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZM4Rgnh4EeC6--0yBRkboA" position="63,85" graphEdge="_ZM4RhHh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZM4Rhnh4EeC6--0yBRkboA" position="63,105" graphEdge="_ZM4RiHh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZM4Rinh4EeC6--0yBRkboA" position="63,125" graphEdge="_ZM4RjHh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZM4Rjnh4EeC6--0yBRkboA" position="63,145" graphEdge="_ZM4RkHh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZM4Rknh4EeC6--0yBRkboA" position="63,165" graphEdge="_ZM4RlHh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZM4Rlnh4EeC6--0yBRkboA" position="63,185" graphEdge="_ZNBbYHh4EeC6--0yBRkboA"/>
+        <anchorage xmi:id="_ZNBbYnh4EeC6--0yBRkboA" position="63,205" graphEdge="_ZNBbZHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI2tLXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMfHh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_ZIQQIHh4EeC6--0yBRkboA" position="213,40" size="100,300">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIQQIXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwLzHh4EeC6--0yBRkboA"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIjLEHh4EeC6--0yBRkboA" position="213,40" size="20,15">
+        <anchorage xmi:id="_ZL1IkHh4EeC6--0yBRkboA" position="263,5" graphEdge="_ZL1IkXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIjLEXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwL2nh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIjLEnh4EeC6--0yBRkboA" position="213,60" size="20,15">
+        <anchorage xmi:id="_ZL1IlHh4EeC6--0yBRkboA" position="263,5" graphEdge="_ZL1IlXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIjLE3h4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwL3nh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_ZIQQInh4EeC6--0yBRkboA" position="413,40" size="100,970">
+      <anchorage xmi:id="_ZL1ImHh4EeC6--0yBRkboA" position="413,125" graphEdge="_ZL1ImXh4EeC6--0yBRkboA"/>
+      <anchorage xmi:id="_ZMblk3h4EeC6--0yBRkboA" position="413,565" graphEdge="_ZMbllHh4EeC6--0yBRkboA"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIQQI3h4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwLzXh4EeC6--0yBRkboA"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIjLFnh4EeC6--0yBRkboA" position="413,115" size="20,15">
+        <anchorage xmi:id="_ZL-5kHh4EeC6--0yBRkboA" position="463,5" graphEdge="_ZL-5kXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIjLF3h4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwL5nh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIjLGHh4EeC6--0yBRkboA" position="413,135" size="20,15">
+        <anchorage xmi:id="_ZL-5lHh4EeC6--0yBRkboA" position="463,5" graphEdge="_ZL-5lXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIjLGXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwL6nh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIjLGnh4EeC6--0yBRkboA" position="413,155" size="20,15">
+        <anchorage xmi:id="_ZL-5mHh4EeC6--0yBRkboA" position="463,5" graphEdge="_ZL-5mXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIjLG3h4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwL7nh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIjLHHh4EeC6--0yBRkboA" position="413,175" size="20,15">
+        <anchorage xmi:id="_ZL-5nHh4EeC6--0yBRkboA" position="463,5" graphEdge="_ZL-5nXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIjLHXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwL8nh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIjLHnh4EeC6--0yBRkboA" position="413,195" size="20,15">
+        <anchorage xmi:id="_ZL-5oHh4EeC6--0yBRkboA" position="463,5" graphEdge="_ZL-5oXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIjLH3h4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwL9nh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIjLIHh4EeC6--0yBRkboA" position="413,215" size="20,15">
+        <anchorage xmi:id="_ZL-5pHh4EeC6--0yBRkboA" position="463,5" graphEdge="_ZL-5pXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIjLIXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwL-nh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIjLInh4EeC6--0yBRkboA" position="413,235" size="20,15">
+        <anchorage xmi:id="_ZL-5qHh4EeC6--0yBRkboA" position="463,5" graphEdge="_ZL-5qXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIjLI3h4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwL_nh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIjLJHh4EeC6--0yBRkboA" position="413,255" size="20,15">
+        <anchorage xmi:id="_ZL-5rHh4EeC6--0yBRkboA" position="463,5" graphEdge="_ZL-5rXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIjLJXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMAnh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIjLJnh4EeC6--0yBRkboA" position="413,275" size="20,15">
+        <anchorage xmi:id="_ZL-5sHh4EeC6--0yBRkboA" position="463,5" graphEdge="_ZMIDgHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIjLJ3h4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMBnh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIs8JHh4EeC6--0yBRkboA" position="413,555" size="20,15">
+        <anchorage xmi:id="_ZMbll3h4EeC6--0yBRkboA" position="463,5" graphEdge="_ZMblmHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIs8JXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMOHh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIs8Jnh4EeC6--0yBRkboA" position="413,575" size="20,15">
+        <anchorage xmi:id="_ZMblm3h4EeC6--0yBRkboA" position="463,5" graphEdge="_ZMkvcHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIs8J3h4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMPHh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIs8KHh4EeC6--0yBRkboA" position="413,595" size="20,15">
+        <anchorage xmi:id="_ZMkvc3h4EeC6--0yBRkboA" position="463,5" graphEdge="_ZMkvdHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIs8KXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMQHh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI2tEHh4EeC6--0yBRkboA" position="413,615" size="20,15">
+        <anchorage xmi:id="_ZMkvd3h4EeC6--0yBRkboA" position="463,5" graphEdge="_ZMkveHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI2tEXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMRHh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI2tEnh4EeC6--0yBRkboA" position="413,635" size="20,15">
+        <anchorage xmi:id="_ZMkve3h4EeC6--0yBRkboA" position="463,5" graphEdge="_ZMkvfHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI2tE3h4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMSHh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI2tFHh4EeC6--0yBRkboA" position="413,655" size="20,15">
+        <anchorage xmi:id="_ZMkvf3h4EeC6--0yBRkboA" position="463,5" graphEdge="_ZMkvgHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI2tFXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMTHh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI2tFnh4EeC6--0yBRkboA" position="413,675" size="20,15">
+        <anchorage xmi:id="_ZMkvg3h4EeC6--0yBRkboA" position="463,5" graphEdge="_ZMkvhHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI2tF3h4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMUHh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI2tHHh4EeC6--0yBRkboA" position="413,735" size="20,15">
+        <anchorage xmi:id="_ZMugeHh4EeC6--0yBRkboA" position="463,5" graphEdge="_ZMugeXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI2tHXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMXHh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI2tHnh4EeC6--0yBRkboA" position="413,755" size="20,15">
+        <anchorage xmi:id="_ZMugfHh4EeC6--0yBRkboA" position="463,5" graphEdge="_ZMugfXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI2tH3h4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMY3h4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI2tIHh4EeC6--0yBRkboA" position="413,775" size="20,15">
+        <anchorage xmi:id="_ZMuggHh4EeC6--0yBRkboA" position="463,5" graphEdge="_ZMuggXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI2tIXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMZ3h4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI2tInh4EeC6--0yBRkboA" position="413,795" size="20,15">
+        <anchorage xmi:id="_ZMughHh4EeC6--0yBRkboA" position="463,5" graphEdge="_ZMughXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI2tI3h4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMa3h4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI2tJHh4EeC6--0yBRkboA" position="413,815" size="20,15">
+        <anchorage xmi:id="_ZMugiHh4EeC6--0yBRkboA" position="463,5" graphEdge="_ZMugiXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI2tJXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMb3h4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI2tJnh4EeC6--0yBRkboA" position="413,835" size="20,15">
+        <anchorage xmi:id="_ZMugjHh4EeC6--0yBRkboA" position="463,5" graphEdge="_ZMugjXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI2tJ3h4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMc3h4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI2tKHh4EeC6--0yBRkboA" position="413,855" size="20,15">
+        <anchorage xmi:id="_ZMugkHh4EeC6--0yBRkboA" position="463,5" graphEdge="_ZMugkXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI2tKXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMd3h4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI2tKnh4EeC6--0yBRkboA" position="413,875" size="20,15">
+        <anchorage xmi:id="_ZMuglHh4EeC6--0yBRkboA" position="463,5" graphEdge="_ZM4RcHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI2tK3h4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMe3h4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_ZIQQJHh4EeC6--0yBRkboA" position="613,40" size="100,1065">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIQQJXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwLznh4EeC6--0yBRkboA"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIs8Enh4EeC6--0yBRkboA" position="613,310" size="20,15">
+        <anchorage xmi:id="_ZMR0gHh4EeC6--0yBRkboA" position="663,5" graphEdge="_ZMR0gXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIs8E3h4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMC3h4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI_3AHh4EeC6--0yBRkboA" position="613,910" size="20,15">
+        <anchorage xmi:id="_ZM4Rc3h4EeC6--0yBRkboA" position="663,5" graphEdge="_ZM4RdHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI_3AXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMgHh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_ZIQQJnh4EeC6--0yBRkboA" position="813,40" size="100,1105">
+      <anchorage xmi:id="_ZMR0hHh4EeC6--0yBRkboA" position="813,360" graphEdge="_ZMR0hXh4EeC6--0yBRkboA"/>
+      <anchorage xmi:id="_ZM4Rd3h4EeC6--0yBRkboA" position="813,960" graphEdge="_ZM4ReHh4EeC6--0yBRkboA"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIQQJ3h4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwLz3h4EeC6--0yBRkboA"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIs8FHh4EeC6--0yBRkboA" position="813,350" size="20,15">
+        <anchorage xmi:id="_ZMR0iHh4EeC6--0yBRkboA" position="863,5" graphEdge="_ZMR0iXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIs8FXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMEnh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIs8Fnh4EeC6--0yBRkboA" position="813,370" size="20,15">
+        <anchorage xmi:id="_ZMR0jHh4EeC6--0yBRkboA" position="863,5" graphEdge="_ZMR0jXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIs8F3h4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMFnh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIs8GHh4EeC6--0yBRkboA" position="813,390" size="20,15">
+        <anchorage xmi:id="_ZMR0kHh4EeC6--0yBRkboA" position="863,5" graphEdge="_ZMR0kXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIs8GXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMGnh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIs8Hnh4EeC6--0yBRkboA" position="813,490" size="20,15">
+        <anchorage xmi:id="_ZMbli3h4EeC6--0yBRkboA" position="863,5" graphEdge="_ZMbljHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIs8H3h4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMLHh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI_3Anh4EeC6--0yBRkboA" position="813,950" size="20,15">
+        <anchorage xmi:id="_ZM4Re3h4EeC6--0yBRkboA" position="863,5" graphEdge="_ZM4RfHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI_3A3h4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMh3h4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI_3BHh4EeC6--0yBRkboA" position="813,970" size="20,15">
+        <anchorage xmi:id="_ZM4Rf3h4EeC6--0yBRkboA" position="863,5" graphEdge="_ZM4RgHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI_3BXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMi3h4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI_3Bnh4EeC6--0yBRkboA" position="813,990" size="20,15">
+        <anchorage xmi:id="_ZM4Rg3h4EeC6--0yBRkboA" position="863,5" graphEdge="_ZM4RhHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI_3B3h4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMj3h4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI_3DHh4EeC6--0yBRkboA" position="813,1090" size="20,15">
+        <anchorage xmi:id="_ZM4Rl3h4EeC6--0yBRkboA" position="863,5" graphEdge="_ZNBbYHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI_3DXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMoXh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_ZIQQKHh4EeC6--0yBRkboA" position="1013,40" size="100,1185">
+      <anchorage xmi:id="_ZMR0lHh4EeC6--0yBRkboA" position="1013,440" graphEdge="_ZMR0lXh4EeC6--0yBRkboA"/>
+      <anchorage xmi:id="_ZM4Rh3h4EeC6--0yBRkboA" position="1013,1040" graphEdge="_ZM4RiHh4EeC6--0yBRkboA"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIQQKXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwL0Hh4EeC6--0yBRkboA"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIs8Gnh4EeC6--0yBRkboA" position="1013,430" size="20,15">
+        <anchorage xmi:id="_ZMR0mHh4EeC6--0yBRkboA" position="1063,5" graphEdge="_ZMblgHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIs8G3h4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMIXh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI_3CHh4EeC6--0yBRkboA" position="1013,1030" size="20,15">
+        <anchorage xmi:id="_ZM4Ri3h4EeC6--0yBRkboA" position="1063,5" graphEdge="_ZM4RjHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI_3CXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMlnh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_ZIQQKnh4EeC6--0yBRkboA" position="1213,40" size="100,1225">
+      <anchorage xmi:id="_ZMblg3h4EeC6--0yBRkboA" position="1213,480" graphEdge="_ZMblhHh4EeC6--0yBRkboA"/>
+      <anchorage xmi:id="_ZM4Rj3h4EeC6--0yBRkboA" position="1213,1080" graphEdge="_ZM4RkHh4EeC6--0yBRkboA"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIQQK3h4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwL0Xh4EeC6--0yBRkboA"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIs8HHh4EeC6--0yBRkboA" position="1213,470" size="20,15">
+        <anchorage xmi:id="_ZMblh3h4EeC6--0yBRkboA" position="1263,5" graphEdge="_ZMbliHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIs8HXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMKHh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI_3Cnh4EeC6--0yBRkboA" position="1213,1070" size="20,15">
+        <anchorage xmi:id="_ZM4Rk3h4EeC6--0yBRkboA" position="1263,5" graphEdge="_ZM4RlHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI_3C3h4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMnXh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_ZIQQLHh4EeC6--0yBRkboA" position="1413,40" size="100,1265">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIQQLXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwL0nh4EeC6--0yBRkboA"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZIs8IHh4EeC6--0yBRkboA" position="1413,510" size="20,15">
+        <anchorage xmi:id="_ZMblj3h4EeC6--0yBRkboA" position="1463,5" graphEdge="_ZMblkHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIs8IXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMMHh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI_3Dnh4EeC6--0yBRkboA" position="1413,1110" size="20,15">
+        <anchorage xmi:id="_ZNBbY3h4EeC6--0yBRkboA" position="1463,5" graphEdge="_ZNBbZHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI_3D3h4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMpXh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_ZIQQLnh4EeC6--0yBRkboA" position="1613,40" size="100,850">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIQQL3h4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwL03h4EeC6--0yBRkboA"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI2tGHh4EeC6--0yBRkboA" position="1613,695" size="20,15">
+        <anchorage xmi:id="_ZMugcHh4EeC6--0yBRkboA" position="1663,5" graphEdge="_ZMugcXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI2tGXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMVHh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI2tGnh4EeC6--0yBRkboA" position="1613,715" size="20,15">
+        <anchorage xmi:id="_ZMugdHh4EeC6--0yBRkboA" position="1663,5" graphEdge="_ZMugdXh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI2tG3h4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMWHh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_ZIaBIHh4EeC6--0yBRkboA" position="1813,40" size="100,300">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIaBIXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwL1Hh4EeC6--0yBRkboA"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_ZI_3EHh4EeC6--0yBRkboA" position="1863,40" size="20,15">
+        <anchorage xmi:id="_ZNBbZnh4EeC6--0yBRkboA" position="1863,5" graphEdge="_ZNBbaHh4EeC6--0yBRkboA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZI_3EXh4EeC6--0yBRkboA">
+          <element href="EmailSender.uml#_YEwMpnh4EeC6--0yBRkboA"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_ZIaBInh4EeC6--0yBRkboA" position="2013,40" size="100,480">
+      <anchorage xmi:id="_ZNBbZ3h4EeC6--0yBRkboA" position="2013,70" graphEdge="_ZNBbaHh4EeC6--0yBRkboA"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZIaBI3h4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwL1Xh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZL1IkXh4EeC6--0yBRkboA" anchor="_ZJJoAHh4EeC6--0yBRkboA _ZL1IkHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZL1Iknh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMqnh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZL1IlXh4EeC6--0yBRkboA" anchor="_ZL1Ik3h4EeC6--0yBRkboA _ZL1IlHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZL1Ilnh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMq3h4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZL1ImXh4EeC6--0yBRkboA" anchor="_ZL1Il3h4EeC6--0yBRkboA _ZL1ImHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZL1Imnh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMrHh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZL-5kXh4EeC6--0yBRkboA" anchor="_ZL1Im3h4EeC6--0yBRkboA _ZL-5kHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZL-5knh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMrXh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZL-5lXh4EeC6--0yBRkboA" anchor="_ZL-5k3h4EeC6--0yBRkboA _ZL-5lHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZL-5lnh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMrnh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZL-5mXh4EeC6--0yBRkboA" anchor="_ZL-5l3h4EeC6--0yBRkboA _ZL-5mHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZL-5mnh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMr3h4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZL-5nXh4EeC6--0yBRkboA" anchor="_ZL-5m3h4EeC6--0yBRkboA _ZL-5nHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZL-5nnh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMsHh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZL-5oXh4EeC6--0yBRkboA" anchor="_ZL-5n3h4EeC6--0yBRkboA _ZL-5oHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZL-5onh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMsXh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZL-5pXh4EeC6--0yBRkboA" anchor="_ZL-5o3h4EeC6--0yBRkboA _ZL-5pHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZL-5pnh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMsnh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZL-5qXh4EeC6--0yBRkboA" anchor="_ZL-5p3h4EeC6--0yBRkboA _ZL-5qHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZL-5qnh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMs3h4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZL-5rXh4EeC6--0yBRkboA" anchor="_ZL-5q3h4EeC6--0yBRkboA _ZL-5rHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZL-5rnh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMtHh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMIDgHh4EeC6--0yBRkboA" anchor="_ZL-5r3h4EeC6--0yBRkboA _ZL-5sHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMIDgXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMtXh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMR0gXh4EeC6--0yBRkboA" anchor="_ZMIDgnh4EeC6--0yBRkboA _ZMR0gHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMR0gnh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMtnh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMR0hXh4EeC6--0yBRkboA" anchor="_ZMR0g3h4EeC6--0yBRkboA _ZMR0hHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMR0hnh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMt3h4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMR0iXh4EeC6--0yBRkboA" anchor="_ZMR0h3h4EeC6--0yBRkboA _ZMR0iHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMR0inh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMuHh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMR0jXh4EeC6--0yBRkboA" anchor="_ZMR0i3h4EeC6--0yBRkboA _ZMR0jHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMR0jnh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMuXh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMR0kXh4EeC6--0yBRkboA" anchor="_ZMR0j3h4EeC6--0yBRkboA _ZMR0kHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMR0knh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMunh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMR0lXh4EeC6--0yBRkboA" anchor="_ZMR0k3h4EeC6--0yBRkboA _ZMR0lHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMR0lnh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMu3h4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMblgHh4EeC6--0yBRkboA" anchor="_ZMR0l3h4EeC6--0yBRkboA _ZMR0mHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMblgXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMvHh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMblhHh4EeC6--0yBRkboA" anchor="_ZMblgnh4EeC6--0yBRkboA _ZMblg3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMblhXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMvXh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMbliHh4EeC6--0yBRkboA" anchor="_ZMblhnh4EeC6--0yBRkboA _ZMblh3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMbliXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMvnh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMbljHh4EeC6--0yBRkboA" anchor="_ZMblinh4EeC6--0yBRkboA _ZMbli3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMbljXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMv3h4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMblkHh4EeC6--0yBRkboA" anchor="_ZMbljnh4EeC6--0yBRkboA _ZMblj3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMblkXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMwHh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMbllHh4EeC6--0yBRkboA" anchor="_ZMblknh4EeC6--0yBRkboA _ZMblk3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMbllXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMwXh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMblmHh4EeC6--0yBRkboA" anchor="_ZMbllnh4EeC6--0yBRkboA _ZMbll3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMblmXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMwnh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMkvcHh4EeC6--0yBRkboA" anchor="_ZMblmnh4EeC6--0yBRkboA _ZMblm3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMkvcXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMw3h4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMkvdHh4EeC6--0yBRkboA" anchor="_ZMkvcnh4EeC6--0yBRkboA _ZMkvc3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMkvdXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMxHh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMkveHh4EeC6--0yBRkboA" anchor="_ZMkvdnh4EeC6--0yBRkboA _ZMkvd3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMkveXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMxXh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMkvfHh4EeC6--0yBRkboA" anchor="_ZMkvenh4EeC6--0yBRkboA _ZMkve3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMkvfXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMxnh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMkvgHh4EeC6--0yBRkboA" anchor="_ZMkvfnh4EeC6--0yBRkboA _ZMkvf3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMkvgXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMx3h4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMkvhHh4EeC6--0yBRkboA" anchor="_ZMkvgnh4EeC6--0yBRkboA _ZMkvg3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMkvhXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMyHh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMugcXh4EeC6--0yBRkboA" anchor="_ZMkvhnh4EeC6--0yBRkboA _ZMugcHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMugcnh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMyXh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMugdXh4EeC6--0yBRkboA" anchor="_ZMugc3h4EeC6--0yBRkboA _ZMugdHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMugdnh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMynh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMugeXh4EeC6--0yBRkboA" anchor="_ZMugd3h4EeC6--0yBRkboA _ZMugeHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMugenh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMy3h4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMugfXh4EeC6--0yBRkboA" anchor="_ZMuge3h4EeC6--0yBRkboA _ZMugfHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMugfnh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMzHh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMuggXh4EeC6--0yBRkboA" anchor="_ZMugf3h4EeC6--0yBRkboA _ZMuggHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMuggnh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMzXh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMughXh4EeC6--0yBRkboA" anchor="_ZMugg3h4EeC6--0yBRkboA _ZMughHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMughnh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMznh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMugiXh4EeC6--0yBRkboA" anchor="_ZMugh3h4EeC6--0yBRkboA _ZMugiHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMuginh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwMz3h4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMugjXh4EeC6--0yBRkboA" anchor="_ZMugi3h4EeC6--0yBRkboA _ZMugjHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMugjnh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwM0Hh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZMugkXh4EeC6--0yBRkboA" anchor="_ZMugj3h4EeC6--0yBRkboA _ZMugkHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZMugknh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwM0Xh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZM4RcHh4EeC6--0yBRkboA" anchor="_ZMugk3h4EeC6--0yBRkboA _ZMuglHh4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZM4RcXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwM0nh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZM4RdHh4EeC6--0yBRkboA" anchor="_ZM4Rcnh4EeC6--0yBRkboA _ZM4Rc3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZM4RdXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwM03h4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZM4ReHh4EeC6--0yBRkboA" anchor="_ZM4Rdnh4EeC6--0yBRkboA _ZM4Rd3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZM4ReXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwM1Hh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZM4RfHh4EeC6--0yBRkboA" anchor="_ZM4Renh4EeC6--0yBRkboA _ZM4Re3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZM4RfXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwM1Xh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZM4RgHh4EeC6--0yBRkboA" anchor="_ZM4Rfnh4EeC6--0yBRkboA _ZM4Rf3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZM4RgXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwM1nh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZM4RhHh4EeC6--0yBRkboA" anchor="_ZM4Rgnh4EeC6--0yBRkboA _ZM4Rg3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZM4RhXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwM13h4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZM4RiHh4EeC6--0yBRkboA" anchor="_ZM4Rhnh4EeC6--0yBRkboA _ZM4Rh3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZM4RiXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwM2Hh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZM4RjHh4EeC6--0yBRkboA" anchor="_ZM4Rinh4EeC6--0yBRkboA _ZM4Ri3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZM4RjXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwM2Xh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZM4RkHh4EeC6--0yBRkboA" anchor="_ZM4Rjnh4EeC6--0yBRkboA _ZM4Rj3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZM4RkXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwM2nh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZM4RlHh4EeC6--0yBRkboA" anchor="_ZM4Rknh4EeC6--0yBRkboA _ZM4Rk3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZM4RlXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwM23h4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZNBbYHh4EeC6--0yBRkboA" anchor="_ZM4Rlnh4EeC6--0yBRkboA _ZM4Rl3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZNBbYXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwM3Hh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZNBbZHh4EeC6--0yBRkboA" anchor="_ZNBbYnh4EeC6--0yBRkboA _ZNBbY3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZNBbZXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwM3Xh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_ZNBbaHh4EeC6--0yBRkboA" anchor="_ZNBbZnh4EeC6--0yBRkboA _ZNBbZ3h4EeC6--0yBRkboA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ZNBbaXh4EeC6--0yBRkboA">
+        <element href="EmailSender.uml#_YEwM3nh4EeC6--0yBRkboA"/>
+      </semanticModel>
+    </contained>
+  </diagrams>
+</diagrams:Diagrams>

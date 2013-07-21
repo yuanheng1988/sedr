@@ -1,0 +1,49 @@
+<!--
+Automatically associate extension with job id, in client JavaScript
+doc
+	.doc
+	.docx
+xls
+	.xls
+	.xlsx
+csv
+	.csv
+	.txt
+
+Use timeout option
+-->
+
+<package>
+	<job id='csv'>
+		<script language='JScript' src='convert_to_arff.js'>
+		</script>
+		<script language='JScript' src='xls_to_arff.js'>
+		</script>
+		<script language='JScript' src='csv_to_arff.js'>
+		</script>
+		<script language='JScript'>
+			toArff = new csv2arff();
+			convertToArff();
+		</script>
+	</job>
+	<job id='xls'>
+		<script language='JScript' src='convert_to_arff.js'>
+		</script>
+		<script language='JScript' src='xls_to_arff.js'>
+		</script>
+		<script language='JScript'>
+			toArff = new xls2arff();
+			convertToArff();
+		</script>
+	</job>
+	<job id='doc'>
+		<script language='JScript' src='convert_to_arff.js'>
+		</script>
+		<script language='JScript' src='doc_to_arff.js'>
+		</script>
+		<script language='JScript'>
+			toArff = new doc2arff();
+			convertToArff();
+		</script>
+	</job>
+</package>

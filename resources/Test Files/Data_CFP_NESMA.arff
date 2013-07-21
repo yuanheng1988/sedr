@@ -1,0 +1,96 @@
+%
+% 1. Title: Sogeti 2006 Functional Size Measures
+% 
+% 2. Sources:
+%      (a) Creator: H. van Heeringen
+%      (b) Donor: Luigi Lavazza (luigi.lavazza@uninsubria.it)
+%      (c) Date: April, 2009
+% 
+%3. Past Usage:
+%    1. H. van Heeringen (2007). Changing from FPA to COSMIC - A Transition Framework. In proceedings of the Software Metrics European Forum 2007, Rome, Italy (obtainable from http://metrieken.sogeti.nl/Home/SEC/Publicaties.jsp).
+%      -- Results:
+%         -- linear regression shows correlation between COSMIC Function Point and NESMA Function Point size measures
+%    2. L. Lavazza (2009). Convertibility of Functional Size Measurements: New Insights and Methodological Issues. In proceedings of PROMISE 09 (PRedictOr Models In Software Engineering), Vancouver, 18-19 May 2009.
+%      -- Results:
+%         -- linear regression shows correlation among COSMIC Function Point, NESMA Function Point, and their base functional components
+%         -- COSMIC FP are predicted on the basis of either COSMIC or NESMA base functional components
+%         -- NESMA FP are predicted on the basis of either COSMIC or NESMA base functional components
+%         -- the paper shows that relatively little information (wrt fully fledged COSMIC or NEMSA methods) is needed to predict the functional size of SW 
+%
+%4. Relevant Information:
+%  -- The validity of the results reported in both papers mentioned above is limited to the class of applications that provided the data, and probably also to the development environment
+%  -- All the applications that contributed to the data set are business applications from banking insurance and government organizations
+%
+%  -- All the Base Functional Components measures are pure numbers. For instance #EI is the number of elementary processes that are classified as EI, NOT the number of FP contributed by EIs.
+%
+%5. Number of Instances: 25 
+%
+%6. Number of Attributes: 9
+%
+%
+%7. Attribute Information:
+%  1. PID: Project Identifier (integer)
+%  2. Num_FP_Nesma: Size in NESMA Function Points (integer)
+%  3. Num_ILF: Number of Internal Logic Files (integer)
+%  4. Num_EIF: Number of External Interface Files (integer)
+%  5. Num_EI: Number of External Inputs (integer)
+%  6. Num_EO: Number of External Outputs (integer)
+%  7. Num_EQ: Number of External Queries (integer)
+%  8. Num_CFP: Size in COSMIC Function Points (integer)
+%  9. Num_FuncProc: Number of COSMIC Functional Processes (integer)
+%
+%8. Missing Attribute Values: None
+%
+%9. Class Distribution: the class value (#FP_Nesma) is continuously valued.
+%  Num_FP_Nesma Value Range:   Number of Instances in Range:
+%  0-100                       1
+%  101-200                     4
+%  201-300                     5
+%  301-400                     3
+%  401-500                     3
+%  501-600                     2
+%  601-700                     3
+%  701-800                     1
+%  801-900                     1
+%  901-1000                    1
+%  above 1000                  2
+%
+%
+@RELATION CosmicNesmaBFCdata
+@ATTRIBUTE PID           NUMERIC
+@ATTRIBUTE Num_FP_Nesma  NUMERIC
+@ATTRIBUTE Num_ILF       NUMERIC
+@ATTRIBUTE Num_EIF       NUMERIC
+@ATTRIBUTE Num_EI        NUMERIC
+@ATTRIBUTE Num_EO        NUMERIC
+@ATTRIBUTE Num_EQ        NUMERIC
+@ATTRIBUTE Num_CFP       NUMERIC
+@ATTRIBUTE Num_FuncProc  NUMERIC
+@DATA
+1,302,11,6,16,19,9,313,54
+2,653,13,1,53,53,20,603,110
+3,606,17,0,45,55,8,778,152
+4,245,6,6,31,23,3,257,43
+5,112,2,9,6,4,0,75,8
+6,499,16,3,45,34,1,445,66
+7,565,34,0,38,25,1,488,64
+8,249,14,3,23,14,1,270,36
+9,129,1,12,4,6,4,73,14
+10,381,0,30,0,42,0,281,42
+11,924,45,2,136,7,5,1144,143
+12,1076,45,2,136,7,43,1448,181
+13,412,14,1,19,21,11,509,51
+14,279,11,4,20,20,1,286,44
+15,279,11,4,20,20,1,352,44
+16,136,3,0,13,11,2,137,25
+17,874,32,0,95,39,13,925,159
+18,61,1,4,1,6,0,66,7
+19,1622,27,4,124,169,1,1864,223
+20,627,23,1,58,25,22,714,113
+21,586,31,0,75,30,2,620,118
+22,741,34,0,49,51,13,893,113
+23,498,21,0,63,39,6,530,104
+24,286,12,1,20,23,4,252,35
+25,334,6,8,26,27,3,301,34
+
+

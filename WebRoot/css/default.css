@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	width:980px;
+	margin:0 auto;
+	color:#333;
+}
+UL {
+	margin-bottom:0;
+}
+.input0 {
+	width:120px;
+	height:14px;
+	border:#CCC 1px solid;
+	vertical-align:middle;
+}
+.s1 {
+	width:80px;
+	border:#999 1px;
+	height:22px;
+	background:#FFC
+}
+.table1 {
+	font-size:13px;
+	float:right
+}
+table.search {
+	background:#CCC;
+}
+.input2 {
+	width:330px;
+	height:22px;
+	border:#CCC 1px solid;
+	margin-top:12px;
+	margin-left:50px;
+	vertical-align:middle;
+	font-size:16px;
+	padding-top:4px;
+}
+.input2:hover {
+	border: #F00 1px solid
+}
+.input3 {
+	width:50px;
+	height:18px;
+	border:#CCC 1px solid;
+	background:#FFF;
+	vertical-align:middle;
+}
+.input4 {
+	width:60px;
+	border:none;
+	background:#CCC;
+	font-size:14px;
+	color:#333
+}
+.search td {
+	height:28px;
+}
+.search A {
+	font-size:14px;
+	color:#FFF;
+	font-weight:bold
+}
+.search A:hover {
+	font-size:14px;
+	color:#009;
+	font-weight:bold
+}
+.div1 {
+	width:760px;
+	float:left;
+	 height:550px;
+}
+.div2 {
+	width:200px;
+	float:right;
+
+}
+.div4 {
+	width:760px;
+	float:left;
+}
+.div_cate {
+	width:760px;
+	float:left;
+}
+.div_cate UL {
+	font-size:14px;
+	color: #333
+}
+.div_cate UL LI {
+	display:inline
+}
+.div_cate UL LI P {
+}
+.div_cate UL LI A {
+	color: #06C;
+	text-decoration:none;
+	font-size:14px;
+}
+
+
+.copy {
+	font-size:12px;
+}
+.data {
+	/*background:url(../images/data.png) no-repeat;*/
+	height:270px;
+}
+.dataTable {
+	font-size:14px;
+}
+.dataTable tr td {
+	padding-left:15px
+}
+.dataTable tr td A {
+	font-size:11px;
+	font-weight:bold;
+	color: #fd4b22;
+	text-decoration:none;
+	FONT-FAMILY: Georgia, Arial, Verdana, sans;
+}
+.p3 {
+	color:#000;
+	font-style:italic
+}
+.loginForm {
+	float:right;
+	margin-top:0px;
+	font-size:12px;
+}
+.loginForm UL {
+	margin-top:0px;
+}
+.loginForm UL LI {
+	display:inline
+}
+.searchForm {
+	width:550px;
+	margin-top:70px;
+	margin-left:200px;
+}
+.searchForm UL {
+	/*background:#CCC;padding-bottom:2px; padding-top:2px; padding-left:2px; width:400px; margin-left:0px;*/
+	background:url(../images/search.jpg) no-repeat left;
+	height:70px;
+	width:550px;
+	margin-left:0px;
+	padding-left:0px;
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+.searchForm UL li {
+	display:inline;
+}
+.sort {
+	padding-top:40px;
+}
+.sort UL li {
+	display:inline
+}
+.sort UL li select {
+}
+.sort UL LI A {
+	color: #06C;
+	text-decoration:none;
+	font-size:14px;
+}
+.sort UL LI A:hover {
+	text-decoration:underline
+}
+.data_list{ font-size:14px; float:left; width:760px;}
+.title{ font-size:14px; font-weight:bold; color:#06C}
+.data_list OL LI table{ font-size:14px; color:#666; font-weight:500}
+
+.data_list OL LI A{  text-decoration:none; font-weight:bold; font-size:12px;}
+.data_list OL LI A:hover{ color:#F30}
+.navigator{ margin-left:40px}
+.navigator tr td{}
+.navigator tr td A{ font-size:12px; text-decoration:none; color:#333;background:#CCC; border:#999 1px solid; padding-left:3px; padding-right:3px;}
+.shareTable { margin-left:50px;} 
+.shareTable tr td{ height:30px; }
+.shareTable tr td input .i1{ width:300px; border:#03F;}
+.shareTable tr td select{ width:150px;}
+#shareSumbit_button{ background:url(../images/next.gif) no-repeat center; width:80px; height:28px; border:none; margin-left:100px;}

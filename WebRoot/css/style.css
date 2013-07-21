@@ -1,0 +1,95 @@
+/*code based on Stu Nicholls "ultimate dropdown menu"
+http://www.cssplay.co.uk*/
+/*common styling*/
+.menu {
+	float:left;
+	margin-top:0px; padding-top:0px;
+	font-family: arial, verdana, sans-serif;
+	width:100%;
+	position:relative;
+	font-size:12px;
+	font-weight:bold;
+	background:url(../images/bgOFF.gif) repeat-x;
+	border-bottom:3px solid #FF0066;/*bottom border color*/
+}
+.menu ul {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	float:left;
+	position:relative;
+}
+.menu ul li {
+	float:left;
+	position:relative;
+	display:inline;
+	background:url(../images/bgDIVIDER.gif) no-repeat bottom right;
+}
+/*style of main items normal state*/
+.menu ul li a, .menu ul li a:visited {
+	float:left;
+	display:block;
+	text-decoration:none;
+	color:#fff;
+	width:auto;
+	height:26px;
+	padding:0px 16px 0px 16px;
+	line-height:26px;
+}
+* html .menu ul li a, .menu ul li a:visited {
+	width:auto;
+	w\idth:auto;
+}
+/*hide sub nav items*/
+.menu ul li ul {
+	display:none;
+}
+/*clear the main nav bg*/
+.menu ul li ul li {
+	background:none;
+}
+/*style for table of sub nav items*/
+table {
+	margin:-1px;
+	border-collapse:collapse;
+	font-size:11px;
+}
+/*specific to non IE browsers*/
+/*main nav over state*/
+.menu ul li:hover a {
+	color:#009;
+	background-color:#FFF;
+}
+/*IE 6.7不支持li背景变更*/
+
+.menu ul li:hover ul {
+	display:block;
+	position:absolute;
+	top:25px;
+	margin-top:1px;
+	left:0;
+	width:100%;
+}
+.menu ul li a:hover {
+	background:#FFF;
+	filter:alpha(opacity=100);
+	-moz-opacity:.20;
+	opacity:0.2
+}
+/*drop-down on state*/
+.menu ul li:hover ul li a {
+	display:block;
+	background:#131546;
+	color:#fff;
+	height:auto;
+	line-height:15px;
+	padding:2px 16px 2px 16px;
+	width:120px;
+	border-bottom:1px solid #fff;
+	background-color:#FFF;
+}
+/*sub drop-down over state*/
+.menu ul li:hover ul li a:hover {
+	background:#22256D;
+	color:#fff;
+}

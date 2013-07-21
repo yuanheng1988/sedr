@@ -1,0 +1,68 @@
+support analysis: prediction, correlation, text mining
+
+organizational scope: multiple/single
+
+project scope: multiple/single
+
+research area: defect prediction, effort prediction, general, process study, requirement study
+
+life cycle phase: requirement, design, coding, testing, maintenance
+
+architecture: client server, multi-tier, Multi-tier with web public interface, Stand alone, browse server, client|browser server;
+
+design_technique: Design Review/Inspection; Rational Rose; Usability Review/Testing; Structured Design; UML (Unified Modeling Language);
+                  Usability Review/Testing; High Level Design/Low Level Design; EA; StarUML; BugZero; Microsoft Office;
+                  CaliberRM; ClearQuest; Visual Source Safe; Rapid SQL; Jude UML Modeling Tool; Power Designer;
+                  RTM(Requirement Traceability Matrix); Template; SQMS (Software Quality Manage System); 
+                  None; Mockup; Crystal reports; 
+
+size_technique: IFPUG(International Function Point Users Group), COSMIC-FPP(COSMIC Full Function Points), LOC(Lines of Code), 
+                Mark II (Symons Mark II Function Point), NESMA (Netherlands Software Metrics Association)   
+
+effort:
+time:
+member:
+size:
+defect:
+
+program language: 2GL, 3GL, 4GL, APG 
+
+Operation System: Widows, Unix, Linux, Mac OS
+
+database system: Access, MySQL, Informix, MS SQL, Oracle, Sybase, Toad, Lotus Domino, Erstudio, DB 2, HL-SQL, NONE
+
+development site: all the countries in the world and all the province in China.
+
+development technique: Business Area Modeling, Data Modeling, Event Modeling, Process Modeling, Joint Application Development, Prototyping, 
+                       Regression Testing, Testing-oriented design, Gane/Sarson structured Analysis, Rapid Application Development, 
+                       Multifunctional Teams, Trial & Error; Object Oriented Design, Code inspections;
+
+development tool: ABEND-AID, BTS, ISPF, Idea Debugger, LINC LITE, MS CODEVIEW, SQL PLUS, TRACE, Xpeditor, Eclipse, JBuilder, MS Visual Studio, Weblogic, Websphere, IntelliJ IDEA, NetBeans, Purify
+
+development platform: PC, Workstation, Mainframe, Embeded, VAX
+
+organization type: Aerospace / Automotive; Billing; Business Services; Chemicals; Community Services;Computers & Software; Construction;
+                   Consumer Goods; Credit Card Processor; Defence; E-Business; Energy(Electricity, Gas, Water); Electronics; Engineering; 
+                   Research & Development; Software Development; Client/Server architecture for Language Services; Financial, Property & Business Services; 
+                   Food Processing; Government; Community Services; Insurance; Transport & Storage; Manufacturing; Wholesale & Retail Trade;
+                   Marketing; Media; Medical and Health Care; Public Administration; Oil; Ordering; Computers & Software; 
+                   Insurance; Computers & Software; Insurance; Real Estate & Property Services; Recreation & Personnel Services; Sales & Marketing; Service;
+                   Professional Services; Voice Provisioning; Telecommunication; Family (Community Service); Construction; 
+                   Communications (Aerospace, Railway, Automotive); Transportation; Education; Finance (Banking, Insurance, Security);
+                   Hotel; Academy; Energy (Oil, electricity, Gas, Water supply); Mineral; Manufacturing (Petroleum, Chemical, Steel);
+
+business area: Family (Community Service); Construction; Communication(Aerospace, Railway, Automotive); Transportation; Education; Finance, Insurance, Security;
+               Government; Public Administration(Taxing); Wholesale & Retail; Storage; Media; Energy (Oil, Electricity, Gas, Water supply, Mineral);
+               Genral; Health; Manufacturing; Accounting; Activity Tracking; Actuarial System - calculate employer rates; Banking; Customer Configuration Management;
+               Customs; Defence; Distribution & Transport; Engineering; EPOS; Financial (excluding Banking); General; Inventory; Legal; Loans;
+               Logistics; Mail Service; Manufacturing; Marketing; Ocean Transportation; Pension Funds Management; Personnel; Computer services and IT consultation;
+               Publich Health & Family Services; Registration; Racing; Research & Development; Sales; Social Services; Software house / Services;
+               Telecommunications;
+
+application type: Business, Customer billing/Relationship management; Electronic Data Interchange; Decision Support System; E-Business; Electronic Banking; 
+                  Executive Information System; Fault Tolerance; Financial transaction process/accounting; Geographic or spatial information system;
+                  GUI Interface Application; Knowledge Based Multimedia; Management Information System; Middleware; Msg.Switch/cel phone; Network Management;
+                  Office Information System; Operating system or software utility; (Re-usable component); Real-time System; Sensor Ctl. + presentation; 
+                  Software development tool; Transaction/Production System; Vehicle Systems Software; EDA system; HR management system; process control;
+                  Document management system; Health software; OLAP; Work Flow Support and Management;
+

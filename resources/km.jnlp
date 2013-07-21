@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jnlp spec='6.0+' codebase='http://192.192.192.33:80/km/' href='km.jnlp'>
+	<information>
+		<title>Knowledge Management System</title>
+		<vendor>ESEG at itechs.iscas.ac.cn</vendor>
+		<homepage href='index.html'/>
+		<description kind='one-line'>Knowledge Management System</description>
+		<!--<offline-allowed/>-->
+		<shortcut online='true'>
+			<desktop/>
+		</shortcut>
+	</information>
+	<update check='always' policy='always'/>
+	<security>
+<!--To grant permissions to a jar-file, it must be listed inside resources tag. 
+It must be signed to to be granted all-permissions.
+-->
+		<all-permissions/>
+	</security>
+	<resources>
+		<jar href='cn.ac.iscas.itechs.km.jar' download='eager' main='true'/>
+		<jar href='mysql-connector-java-5.0.8-bin.jar' download='eager' main='false'/>
+		<jar href='ftp4j-1.3.3.jar' download='eager' main='false'/>
+		<jar href='jgraph.jar' download='eager' main='false'/>
+		<jar href='org.semanticweb.owl.owlapi.jar' download='eager' main='false'/>
+		<java java-vm-args='-client -enableassertions' href='http://java.sun.com/products/autodl/j2se' 
+			version='1.6+'/>
+	</resources>
+	<application-desc/>
+</jnlp>

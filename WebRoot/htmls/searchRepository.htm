@@ -1,0 +1,54 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Search Repository</title>
+<base target="_self">
+</head>
+
+<body>
+
+<p align="left"><a href="index.htm">Home</a> <a href="browseRepository.htm">
+Browse Repository</a> <a href="shareData.htm">Share Data</a>
+<a href="exportData.htm">Export Data</a> <b><a href="searchRepository.htm">
+Search Repository</a></b> <a href="feedback.htm">Feedback</a></p>
+<hr>
+
+<form method="POST" target="_blank" action="browseRepository.htm">
+	<p>Keywords<input type="text" name="search_keywords" size="66"><input type="submit" value="Go" name="button_submit"></p>
+	<h4><b>(collapse) Advanced Options</b></h4>
+	<table border="1" width="676" id="table1">
+		<tr>
+			<td width="121">
+			<p align="right">Subject Area</td>
+			<td><select size="1" name="data_subject">
+		<option>Effort</option>
+		<option>Defect</option>
+		<option>Trustworthiness</option>
+		<option>Measurement</option>
+		</select></td>
+		</tr>
+		<tr>
+			<td width="121">
+			<p align="right">Generated Phase</td>
+			<td><select size="1" name="data_phase">
+		<option>Requirement</option>
+		<option>Design</option>
+		<option>Coding</option>
+		<option>Testing</option>
+		<option>Maintenance</option>
+		</select></td>
+		</tr>
+		<tr>
+			<td width="121">
+			<p align="right">Attributes</td>
+			<td><input type="text" name="T1" size="82"></td>
+		</tr>
+	</table>
+</form>
+<h3>Brief Guide</h3>
+
+</body>
+
+</html>

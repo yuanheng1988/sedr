@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+<property name='project.dir' value='E:/实验室电脑所有备份/D盘备份/MyEclipse Workspace/sedr' />
+<property name='package.name' value="iscas/nfs/itechs/ese/convert" />
+<property name='to_prop.dir' value='${project.dir}/WebRoot/WEB-INF/classes/${package.name}' />
+<property name='from_prop.dir' value='${project.dir}/resources' />
+<property name='to_prop.file' value='${to_prop.dir}/app.properties' />
+
+<target name='server'>
+	<copy file='${from_prop.dir}/server_app.properties' tofile='${to_prop.file}' overwrite='true' />
+</target>
+
+<target name='local'>
+	<copy file='${from_prop.dir}/local_app.properties' tofile='${to_prop.file}' overwrite='true' />
+</target>
+
+<target name='local2'>
+	<copy file='${from_prop.dir}/local_app.properties' tofile='${to_prop.file}' overwrite='true' />
+</target>
+
+</project>

@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin-top:0; margin-left:0px; font-size:12px;}
+.buttom {
+	width:100%;
+	float:left;
+	height:30px;
+}
+.link {
+	border:#009 1px solid; margin-left:0px;
+}
+.link LI {
+	display:inline
+}

@@ -1,0 +1,11 @@
+user_login (user_id, password, authority_level {Advanced, Ordinary})
+
+user_info(user_id, affiliation, email_address, country)
+
+authority_info(authority_level, upload_able, download_able, updata_all_able, updata_own_able, delete_all_able, delete_own_able)
+
+(Advanced, true, true, true, true, true, true)
+(Ordinary, true, true, false,true, false,true)
+
+
+(Other, false, true, false, false, false, false)

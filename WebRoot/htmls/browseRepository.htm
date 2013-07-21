@@ -1,0 +1,253 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Browse Repository</title>
+<base target="_self">
+</head>
+
+<body>
+
+<p align="left"><a href="index.htm">Home</a> <b><a href="browseRepository.htm">Browse Repository</a></b>
+<a href="shareData.htm">Share Data</a> <a href="exportData.htm">Export Marked Data</a>
+<a href="searchRepository.htm">Search Repository</a> <a href="feedback.htm">
+Feedback</a></p>
+<hr>
+
+<p align="left"><a href="Defect%20Prediction">Defect Prediction</a>
+<a href="Defect%20Prediction">Effort Prediction</a>
+<a href="Defect%20Prediction">General</a> <a href="Defect%20Prediction">
+Model-based SE</a> <a href="Defect%20Prediction">Text Mining</a></p>
+<p align="left"><b>Sort by</b> <a href="javascript:">Creation Time</a> <a href="javascript:">
+Descriptive Name</a> <a href="javascript:">Download Count</a>
+<a href="javascript:">Ascend/Descend</a></p>
+
+<ol>
+	<li>
+	<p align="left">&lt;descriptive name of file 1&gt;, <a href="javascript:">Download File</a>,
+	(if possible) 
+	<a href="viewDataSheet.htm">View 
+	Data Sheet</a>, <a href="javascript:">Mark/Unmark</a>,
+	<a href="exportDataSheet.htm">Export Data Sheet</a></p>
+	<table border="1" width="412" id="table1" height="0">
+		<tr>
+			<td width="147">Original Filename</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="147">File Size</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="147">File Format</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="147">Creation Time</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="147">Update Time</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="147">Download Count</td>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+	<br>
+	</li>
+	<li>
+	<p align="left">&lt;descriptive name of file 2&gt;, <a href="javascript:">Download File</a>,
+	(if possible)
+	<a href="viewDataSheet.htm">View 
+	Data Sheet</a>, <a href="javascript:">Mark for Export</a></p>
+	<table border="1" width="412" id="table7" height="0">
+		<tr>
+			<td width="147">Original Filename</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="147">File Size</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="147">File Format</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="147">Creation Time</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="147">Update Time</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="147">Download Count</td>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+	<br>
+	</li>
+	<li>
+	<p align="left">&lt;descriptive name of file 3&gt;, <a href="javascript:">Download File</a>,
+	(if possible)
+	<a href="viewDataSheet.htm">View 
+	Data Sheet</a>, <a href="javascript:">Mark for Export</a></p>
+	<table border="1" width="412" id="table8" height="0">
+		<tr>
+			<td width="147">Original Filename</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="147">File Size</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="147">File Format</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="147">Creation Time</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="147">Update Time</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="147">Download Count</td>
+			<td>&nbsp;</td>
+		</tr>
+	</table></li>
+</ol>
+<p><b>Page</b> <a href="javascript:">First</a> <a href="javascript:">Previous</a> <a href="javascript:">1</a>
+<a href="javascript:">2</a> <a href="javascript:">3</a> <a href="javascript:">4</a>
+<a href="javascript:">Next</a> <a href="javascript:">Last</a></p>
+<p><b>Sort by</b> <a href="javascript:">Creation Time</a> <a href="javascript:">
+Descriptive Name</a> <a href="javascript:">Download Count</a>
+<a href="javascript:">Ascend/Descend</a></p>
+
+</body>
+
+
+
+
+
+
+<!-- 
+<p align="left"><b>Sort by</b> <a href="javascript:">Creation Time</a> <a href="javascript:">
+Descriptive Name</a> <a href="javascript:">Download Count</a>
+<a href="javascript:">Ascend/Descend</a></p>
+
+<%
+int pageNumber = 0;
+int totalPageNumber = 0;
+if(request.getParameter("pageNumber")!=null){
+  pageNumber = Integer.parseInt(request.getParameter("pageNumber"));
+}
+
+try{
+  RepositoryBrowser repositoryBrowser = new RepositoryBrowser();
+  totalPageNumber = (int)(repositoryBrowser.dataFileListSize()/10)+1;
+  List dataFileList = repositoryBrowser.getDataFileList(pageNumber*10,pageNumber*10+10);
+%>
+<ol>
+<%
+  for(int i=0;i<dataFileList.size();i++){
+    DataFile dataFile = (DataFile)dataFileList.get(i);
+    String originalFileName = dataFile.getOriginalFileName();
+    String fileSize = dataFile.getFileSize();
+    String format = dataFile.getFormat();
+    String currentFileName = dataFile.getCurrentFileName();
+    String creationTime = dataFile.getCreationTime();
+    String updateTime = dataFile.getUpdateTime();
+    String downloadCount = dataFile.getDownloadCount();
+%>
+<li>
+  <p align="left">&lt;descriptive name of file <%=i+1%> &gt;, <a href= 'upload/<%=currentFileName%>'>Download File</a>,
+  (if possible)
+  <a href="viewDataSheet.htm">View
+    Data Sheet</a>, <a href="javascript:">Mark/Unmark</a>,
+    <a href="exportDataSheet.htm">Export Data Sheet</a></p>
+    <table border="1" width="412" id="table1">
+      <tr>
+        <td width="147">Original Filename</td>
+        <td><%=originalFileName%></td>
+      </tr>
+      <tr>
+        <td width="147">File Size</td>
+        <td><%=fileSize%></td>
+      </tr>
+      <tr>
+        <td width="147">File Format</td>
+        <td><%=format%></td>
+      </tr>
+      <tr>
+        <td width="147">Creation Time</td>
+        <td><%=creationTime%></td>
+      </tr>
+      <tr>
+        <td width="147">Update Time</td>
+        <td><%=updateTime%></td>
+      </tr>
+      <tr>
+        <td width="147">Download Count</td>
+        <td><%=downloadCount%></td>
+      </tr>
+    </table>
+    <br>
+</li>
+<%}%>
+</ol>
+<%}catch(Exception e){
+  e.printStackTrace();
+}
+%>
+
+<p><b>Page</b>
+
+<Script language="javascript" type="text/javascript">
+
+if(<%=pageNumber%>!=0){
+  document.write("&nbsp;<a href=\"browseRepository.jsp?pageNumber=0\">First</a>");
+  document.write("&nbsp;<a href=\"browseRepository.jsp?pageNumber="+<%=pageNumber-1%>+"\">Previous</a>");
+}
+
+for(i=0;i<<%=totalPageNumber%>;i++){
+ if(<%=pageNumber%>!=i)
+  document.write("&nbsp;<a href=\"browseRepository.jsp?pageNumber="+i+"\">"+(i+1)+"&nbsp;</a>");
+  else document.write("<b>"+(i+1)+"</b>");
+}
+
+if(<%=pageNumber+1<totalPageNumber%>)
+document.write("&nbsp;<a href=\"browseRepository.jsp?pageNumber=" + <%=pageNumber+1%> + "\">Next</a>");
+
+document.write("&nbsp;<a href=\"browseRepository.jsp?pageNumber=" + <%=totalPageNumber-1%> + "\">Last</a>");
+
+</Script>
+
+</p>
+
+<p>
+  <b>Sort by</b> <a href="javascript:">Creation Time</a> <a href="javascript:">
+Descriptive Name</a> <a href="javascript:">Download Count</a>
+<a href="javascript:">Ascend/Descend</a>
+</p>
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

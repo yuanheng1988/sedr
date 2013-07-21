@@ -1,0 +1,22 @@
+<projectDescription>
+  <id>1229879263300</id>
+  <name>Tagcloud</name>
+  <asVersion>0</asVersion>
+  <boundTemplate>file:///C|/Users/Administrator/AppData/Local/Adobe/Flash CS4/zh_CN/Configuration/Project/templates/boundClass_as3.as</boundTemplate>
+  <classTemplate>file:///C|/Users/Administrator/AppData/Local/Adobe/Flash CS4/zh_CN/Configuration/Project/templates/standardClass_as3.as</classTemplate>
+  <classPath>.</classPath>
+  <defaultApp>file:///C|/Users/Administrator/Desktop/wp-cumulus/wp-cumulus/flash sources/tagcloud.fla</defaultApp>
+  <rootURI>file:///C|/Users/Administrator/Desktop/wp-cumulus/wp-cumulus/flash sources/</rootURI>
+  <flexSDK/>
+  <sources editable="false"/>
+  <libraries editable="false"/>
+  <externalLibraries editable="false"/>
+  <compileList editable="false"/>
+  <recentFiles editable="false">
+    <uri label="tagcloud.swf">file:///C|/Users/Administrator/Desktop/wp-cumulus/wp-cumulus/flash sources/tagcloud.swf</uri>
+    <uri label="tagcloud.fla">file:///C|/Users/Administrator/Desktop/wp-cumulus/wp-cumulus/flash sources/tagcloud.fla</uri>
+    <uri label="TagCloud.as">file:///C|/Users/Administrator/Desktop/wp-cumulus/wp-cumulus/flash sources/com/roytanck/wpcumulus/TagCloud.as</uri>
+    <uri label="Tag.as">file:///C|/Users/Administrator/Desktop/wp-cumulus/wp-cumulus/flash sources/com/roytanck/wpcumulus/Tag.as</uri>
+  </recentFiles>
+  <locations editable="false"/>
+</projectDescription>
