@@ -23,7 +23,7 @@ public class DBOperation {
 		
 		String driver = "com.mysql.jdbc.Driver";
 		Class.forName(driver);
-        con = DriverManager.getConnection(DB_URL + "hehe");
+        con = DriverManager.getConnection(DB_URL);
         return con;
 	}
 	
